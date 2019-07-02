@@ -1,0 +1,98 @@
+body{
+    margin:0;
+    background-color: orange;
+    font-family: 'Montserrat', sans-serif;
+
+}
+nav{
+    background-color: orange;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+nav a:hover{
+    color: blueviolet;
+
+}
+
+.banner{
+    height: 400px;
+    background-image: url("Imagens/fundo.jpg");
+    background-size: cover;
+}
+
+.banner h1, h4{
+    color: #000000;
+    font-family:'Dancing Script','cursive';
+    text-align: center;
+}
+
+h1{
+    font-size: 30pt;
+    margin: 0px;
+    padding-top: 40px;
+}
+h4{
+    font-size: 25px;
+    margin: 0px;
+    padding-top: 5px;
+
+}
+
+.Cadastro{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+
+}
+
+.Cadastro div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+input{
+    border-radius: 15px;
+    margin-bottom: 6px;
+    padding: 5px;
+
+}
+
+.botao{
+    background-color: blueviolet;
+    color: white;
+}
+.botao:hover{
+    background-color: blueviolet;
+    color: black;
+    font-size:30px;
+
+
+}
+::placeholder{
+    color: blueviolet;
+    font-size: 10pt;
+
+}
+footer a{
+ margin: 0px;
+ padding: 0px;
+
+}
+.Redes img{
+    margin: 0px;
+    max-width: 20px;
+    padding: 0px;
+}
+
+ 
